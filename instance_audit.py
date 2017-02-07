@@ -40,11 +40,3 @@ print(" Total instances: {total}").format(total=len(instances))
 print("   Running:    {running}").format(running=ec2running)
 print("   Stopped:    {stopped}").format(stopped=ec2stopped)
 print("   Terminated: {terminated}").format(terminated=ec2terminated)
-
-#sorted_items = sorted(ec2types, key=ec2types.get)
-#print(sorted_items)
-# pp.pprint(ec2types.Counter)
-# print(dir(ec2types))
-
-# for insttype in sorted_items:
-#    print '      %s : %s' % (insttype, sorted_items[insttype])
