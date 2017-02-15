@@ -33,8 +33,6 @@ for instance in instances:
         ec2terminated += 1
 
 
-#print(sorted_items)
-#pp = pprint.PrettyPrinter(depth=2)
 print("EC2:")
 print(" Total instances: {total}").format(total=len(instances))
 print("   Running:    {running}").format(running=ec2running)
